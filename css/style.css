@@ -56,7 +56,7 @@ a:hover{
 }
 
 .home .imghome img {
-    filter: drop-shadow(-10px -10px 30px rgba(255, 102, 0, 0.752));
+    filter: drop-shadow(-10px -10px 300px rgb(255, 124, 37));
 }
 
 .home .boton {
@@ -72,8 +72,15 @@ a:hover{
 }
 
 .boton:hover {
-    box-shadow: 0 0 20px #00000087;
+    box-shadow: 0 0 20px rgb(255, 137, 58);
     font-size: 16px;
     transition: 0.4s;
-    
+}
+
+.About {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    margin: 0 100px;
 }
