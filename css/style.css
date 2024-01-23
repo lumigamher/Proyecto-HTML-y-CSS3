@@ -10,7 +10,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 30px
+    margin: 0 30px;
+    height: 10vh;
 }
 
 .logo{
@@ -29,5 +30,50 @@ header {
 
 a:hover{
     outline: solid 2px #087f5b;
-    transition: 0.1s;
+    transition: 0.2s;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    margin: 0 100px;
+}
+.home h1 {
+    color: #ff702a;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.home p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+}
+
+.home .imghome img {
+    filter: drop-shadow(-10px -10px 30px rgba(255, 102, 0, 0.752));
+}
+
+.home .boton {
+    margin: 10px 0;
+    padding: 10px 30px ;
+    cursor: pointer;
+    background-color: #ff702a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+   
+}
+
+.boton:hover {
+    box-shadow: 0 0 20px #00000087;
+    font-size: 16px;
+    transition: 0.4s;
+    
 }
