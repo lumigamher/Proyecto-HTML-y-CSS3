@@ -81,6 +81,12 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     margin: 0 100px;
+    margin: 0;
+}
+
+.imgAbout img {
+    width: 100vh;
+
 }
