@@ -4,6 +4,7 @@ body {
     background-color: #1e1d2b;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -67,8 +68,7 @@ a:hover{
     color: white;
     border: none;
     border-radius: 7px;
-    font-size: 15px;
-   
+    font-size: 15px; 
 }
 
 .boton:hover {
@@ -81,12 +81,49 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
-    margin: 0 100px;
     margin: 0;
+    transform: translateY(0);
+    transition: 0.5s;
 }
 
 .imgAbout img {
     width: 100vh;
+    box-shadow: 10px 0px 30px #000;
+}
 
+.About h4 {
+    color: #ff702a;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.About h2 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 40px;
+}
+
+.About p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+}
+.containerAbout{
+    margin: 0 100px;
+}
+
+.About .boton {
+    margin: 10px 0;
+    padding: 10px 30px ;
+    cursor: pointer;
+    background-color: #ff702a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px; 
 }
