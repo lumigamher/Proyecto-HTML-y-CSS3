@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #1e1d2b;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
 }
 
 header {
