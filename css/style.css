@@ -224,15 +224,15 @@ a:hover{
     margin: 0 20px;
     flex-flow: wrap column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     padding: 0;
-    border-radius: 150px ;
+    border-radius: 40px ;
     cursor: pointer;
 }
 
 
 .service div:hover {
-    box-shadow: 5px 5px 20px ;
+    box-shadow: 0 3px 20px #ff702a;
 }
 .service h3 {
     margin: 0;
@@ -247,4 +247,10 @@ a:hover{
 .service img:hover {
     width: 240px;
     transition: 0.4s;
+}
+
+.service span {
+    color: white;
+    display: flex;
+    justify-content: center;
 }
