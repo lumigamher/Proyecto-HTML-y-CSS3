@@ -37,14 +37,13 @@ header {
     flex-direction: column;
     top: 10vh;
     left: 0;   
-    align-content: center;
-    justify-content: center;
     height: 90vh;
+    width: 100%;
+    text-align: center;
 }
 
 .menu a {
     text-decoration: none;
-    text-align: justify;
     color: white;
     margin:  15px;
     padding:5px 10px;
@@ -404,14 +403,15 @@ footer {
         display: none;
     }
 
-    header .menu  {
+    .menu  {
         flex-direction: row; /* Cambia la dirección a horizontal */
-        background-color: transparent; /* Puedes ajustar el fondo según tus necesidades */   
+        background-color: transparent;
         position: initial;
         align-items: center;
+        justify-content: end;
     } 
 
-    header{
+    header {
         display: flex;
         align-items: center;
     }
@@ -434,7 +434,8 @@ footer {
     }  
     .menu a:hover::before,
     .menu a:hover{
-        color: #ff702a;
         width: 85%;
     }
+
+    
 }
