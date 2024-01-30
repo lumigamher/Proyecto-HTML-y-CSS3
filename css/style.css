@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 html {
     scroll-behavior: smooth;
+    /* scroll-padding-top: 10vh; */
 }
 
 body {
@@ -10,16 +11,35 @@ body {
 }
 
 header {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 30px;
+    width: 100%;
     height: 10vh;
+    margin: 0;
+    z-index: 100;
 }
 
 .logo{
     color: #ff702a;
     font-size: 25px;
+    margin-left: 20px;
+}
+
+.menu{
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    background-color: #1e1d2b ;
+    display: flex;
+    flex-direction: column;
+    top: 10vh;
+    left: 0;   
+    align-content: center;
+    justify-content: center;
+    height: 90vh;
 }
 
 .menu a {
@@ -36,11 +56,34 @@ header {
     transition: 0.2s;
 }
 
+header .botonMenu{
+    position: fixed;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 20px 20px;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;               
+}
+
+.botonMenu .linea{
+    height: 4px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: #ff702a;
+    margin: 3px 0;
+}
+
+
 .home {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     margin: 0 100px;
 }
 .home h1 {
@@ -137,7 +180,7 @@ header {
     margin: 0;
     transform: translateY(0);
     transition: 0.5s;
-    height: 100vb;
+    height: 100vh;
 }
 
 .foodMenu h2 {
@@ -197,7 +240,7 @@ header {
     margin: 0;
     transform: translateY(0);
     transition: 0.5s;
-    height: 100vb;
+    height: 100vh;
 }
 
 .services h2 {
@@ -256,10 +299,11 @@ header {
 }
 
 .learnMore {
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .infoBoton {
@@ -274,7 +318,10 @@ header {
     border: none;
     border-radius: 30px;
 }
-
+.learnMore h2:hover {
+    transition: none;
+    box-shadow: none;
+}
 .learnMore :hover{
     box-shadow: 5px 5px 10px #000000;
     transition: 0.3s;
@@ -300,11 +347,12 @@ header {
 
 
 footer {
-    height: 40vh;
+    height: 20vh;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     text-align: start;
+    margin-bottom: 50px;
 }
 
 .info {
@@ -350,4 +398,43 @@ footer {
     width: 100%;
 }
 
+@media (min-width: 768px) {
 
+    header .botonMenu{
+        display: none;
+    }
+
+    header .menu  {
+        flex-direction: row; /* Cambia la dirección a horizontal */
+        background-color: transparent; /* Puedes ajustar el fondo según tus necesidades */   
+        position: initial;
+        align-items: center;
+    } 
+
+    header{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    header .menu  {
+        display: flex;
+        transform: translateX(-100%);
+        transition: transform 0.3s; 
+    } 
+
+    header .menu a{
+        top: 20px;
+        margin: 5px 20px;
+    }
+
+    .menu.active{
+        transform: translateX(0);  
+    }  
+    .menu a:hover::before,
+    .menu a:hover{
+        color: #ff702a;
+        width: 85%;
+    }
+}
