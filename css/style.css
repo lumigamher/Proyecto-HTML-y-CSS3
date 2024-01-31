@@ -133,12 +133,10 @@ header .botonMenu{
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    transform: translateY(0);
-    transition: 0.5s;
 }
 
 .imgAbout img {
-    width: 100vh;
+    height: 100vh;
 }
 
 .About h4 {
@@ -423,6 +421,9 @@ footer {
         display: flex;
         align-items: center;
     }
+    .contacto {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -466,5 +467,114 @@ footer {
         width: 80vw;
     }
     
-}
+    .About {
+        flex-flow: column-reverse nowrap;
+        margin: 0;
+        width: 100vw;
+    }
 
+    .imgAbout img {
+        height: 100vw;
+    }
+    
+    .About h4 {
+        font-size: 23px;
+        text-align: center;
+        padding-top: 10vh;
+    }
+    
+    .About h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .About p {
+        text-align: center;
+        font-size: 20px;
+    }
+    .containerAbout{
+        margin: 0 30px;
+        text-align: center;
+    }
+
+    .foodMenu{
+        height: 200vh;
+    }
+    
+    .burguer {
+        flex-flow: column wrap;
+    }
+ 
+    .burguer div {
+        display: flex;
+        width: 80vw;
+        flex-flow:wrap-reverse column;
+        margin: 20px;
+    }
+    .services{
+        height: 180vh;
+    }
+    .service {
+        flex-flow: column wrap;
+    }
+ 
+    .service div {
+        display: flex;
+        width: 80vw;
+        flex-flow:wrap-reverse column;
+    }
+
+    .learnMore {
+        height: 60vh;
+        margin: 0 40px;
+    }
+    footer {
+        flex-direction: column;
+        margin-top: 120px;
+        margin-bottom: 250px;
+    }
+
+    .info{
+        justify-content: center;
+        margin: 20px 10px 10px 40px;
+    }
+    #contacto{
+        display: none;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .contacto h2{
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .contacto a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .contacto nav{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+    
+    .contacto div{
+        height: 4px;
+        width: 83px;
+        border-radius: 5px;
+        background-color: #ff702a;
+        margin: 0px 0px 10px 0px;
+    } 
+}
