@@ -481,7 +481,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    header .menu  {
+    .menu  {
         display: flex;
         align-items: center;
         transform: translateX(-100%);
@@ -492,6 +492,7 @@ footer {
     .menu a {
         width: 100px;
         font-size: 25px;
+        margin: 10px;
 
     }
     .menu.active{
@@ -598,7 +599,10 @@ footer {
         margin-top: 120px;
         margin-bottom: 250px;
     }
-
+    .infoBoton {
+        height: 150px;
+        border-radius: 20px;
+    }
     .info{
         justify-content: center;
         margin: 20px 10px 10px 40px;
