@@ -4,11 +4,12 @@ Este repositorio alberga el código fuente de la página web de BixBurguer, una 
 
 ## Contenido
 
-- [Home](#inicio)
-- [About](#acerca-de-nosotros)
-- [Menu](#menú)
-- [Services](#servicios)
-- [Contact](#contacto)
+- [Inicio](#inicio)
+- [Acerca de Nosotros](#acerca-de-nosotros)
+- [Menú](#menú)
+- [Servicios](#servicios)
+- [Contacto](#contacto)
+- [Demostración de la Página](demostración-de-la-Página)
 
 ## Inicio
 
