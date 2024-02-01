@@ -9,7 +9,7 @@ Este repositorio alberga el código fuente de la página web de BixBurguer, una 
 - [Menú](#menú)
 - [Servicios](#servicios)
 - [Contacto](#contacto)
-- [Demostración de la Página](demostración-de-la-Página)
+- [Demostración de la Página](demostración-de-la-página)
 
 ## Inicio
 
@@ -31,11 +31,10 @@ La sección de "Servicios" explica los estándares de calidad, eficiencia y aten
 
 Para facilitar la comunicación, se proporcionan detalles de contacto en la sección correspondiente. Se anima a los usuarios a hacer consultas o comentarios, fomentando una interacción fluida y profesional.
 
-Este README sirve como referencia para comprender la estructura y el propósito de la página web de BixBurguer. Apreciamos su interés y esperamos que esta plataforma digital refleje la dedicación constante de BixBurguer a la excelencia en la experiencia gastronómica.
-
 ## Demostración de la Página
 
 A continuación, se presenta una breve demostración de cómo funciona la página tanto en web como en dispositivos móviles.
 
 ![Demo](https://github.com/lumigamher/proyecto2/blob/main/sourse/movil.gif)
+
 ![Demo](https://github.com/lumigamher/proyecto2/blob/main/sourse/web.gif)
