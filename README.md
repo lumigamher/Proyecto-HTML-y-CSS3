@@ -1,6 +1,6 @@
 # BixBurguer Landing Page
 
-Este repositorio alberga el código fuente de la página web de BixBurguer, una hamburguería que se especializa en ofrecer una experiencia culinaria única a través de sus productos de alta calidad. A continuación, se presenta una guía para entender la estructura de la página.
+
 
 ## Contenido
 

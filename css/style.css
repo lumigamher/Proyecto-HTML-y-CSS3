@@ -475,6 +475,9 @@ footer {
         display: flex;
         align-items: center;
     }
+    .contacto{
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
