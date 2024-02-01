@@ -36,4 +36,5 @@ Este README sirve como referencia para comprender la estructura y el propósito 
 
 A continuación, se presenta una breve demostración de cómo funciona la página tanto en web como en dispositivos móviles.
 
-![Demo](url_de_tu_gif)
+![Demo](https://github.com/lumigamher/proyecto2/blob/main/sourse/movil.gif)
+![Demo](https://github.com/lumigamher/proyecto2/blob/main/sourse/web.gif)
